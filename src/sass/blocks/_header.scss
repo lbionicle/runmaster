@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        flex: 0 1 250px;
+        img {
+            width: 100%;
+        }
+    }
+
+    &__official {
+        color: #FFF;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        text-align: center;
+        span {
+            font-size: 18px;
+            line-height: normal;
+            display: block;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        a {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+            display: block;
+            text-decoration: none;
+            margin-bottom: 5px;
+
+            &:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
