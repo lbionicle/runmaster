@@ -1,0 +1,42 @@
+.review {
+
+
+    &__block {
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    &__photo {
+        padding: 0 60px 0 0;
+
+        img {
+            width: 169px;
+            height: 169px;
+            border-radius: 999px;
+        }
+    }
+
+    &__subtitle {
+        color: #0D0D0D;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    &__experience {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #0D0D0D;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+}

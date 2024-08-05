@@ -7,8 +7,15 @@
     color: #FFF;
     font-size: 12px;
     font-weight: 500;
+    transition: 0.2s all;
     line-height: normal;
     text-transform: uppercase;
+
+    &:hover {
+        border: 1px solid $main-color;
+        color: $main-color;
+        background-color: #fff;
+    }
 
     &_main {
         width: 300px;
@@ -21,6 +28,15 @@
         height: 58px;
         color: #FFF;
         font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &_buy {
+        width: 135px;
+        height: 45px;
+        text-align: center;
+        font-size: 14px;
         font-weight: 500;
         line-height: normal;
     }
